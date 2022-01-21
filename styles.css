@@ -42,7 +42,6 @@ header ul li{
 }
 
 .top-section{
-    margin-top: 69px;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
     height: 700px;
     width: 1200px;
@@ -51,6 +50,7 @@ header ul li{
     align-items: center;
     display: flex;
     justify-content: center;
+    margin: 69px auto auto auto;
 }
 
 .black-bar{
@@ -59,18 +59,60 @@ header ul li{
 }
 
 .tea-of-month{
-    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .tea-tile li{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
     list-style-type: none;
     width: 300px;
     height: 200px;
+    margin: 30px;
     
 }
 
 .tea-tile li img{
     width: 300px;
     height: auto;
-    margin-bottom: 10px;
+}
+
+.locations{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: auto;
+    margin: 100px auto;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.location-tile{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.location-tile li{
+    margin: 40px;
+    padding: 0;
+    list-style-type: none;
+    background: black;
+    opacity: 1;
+    flex-direction: column;
+    text-align: center;
+}
+
+.location-tile li h2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    text-align: center;
+    height: 200px;
 }
