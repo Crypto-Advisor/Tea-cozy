@@ -88,6 +88,9 @@ header ul li{
     margin: 100px auto;
     text-align: center;
     width: 100%;
+}
+
+.locations h2{
     
 }
 
@@ -104,6 +107,7 @@ header ul li{
     opacity: 1;
     flex-direction: column;
     text-align: center;
+    width: 300px;
 }
 
 .location-tile li h2{
